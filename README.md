@@ -103,11 +103,11 @@ Here is module that we build to train our AI: [train AI model.](https://github.c
 
 ## How to calculate image
 
-1) Read spectral image then save each column data to file: [convert spectral image to numpy array.](https://github.com/Hieucaohd/agriculture-prediction/blob/main/src/convert_img_to_np.ipynb)
+1) Read spectral image then save each column data to file: [convert spectral image to numpy array.](https://github.com/Hieucaohd/agricultural-prediction/blob/main/src/convert_img_to_np.ipynb)
 
-2) Load AI model then predict Nito, Photpho, Kali for each column by that model: [load AI model to code.](https://github.com/Hieucaohd/agriculture-prediction/blob/main/src/bulk_calculate.ipynb)
+2) Load AI model then predict Nito, Photpho, Kali for each column by that model: [load AI model to code.](https://github.com/Hieucaohd/agricultural-prediction/blob/main/src/bulk_calculate.ipynb)
 
-3) Draw image: [draw image.](https://github.com/Hieucaohd/agriculture-prediction/blob/main/src/draw_img.ipynb)
+3) Draw image: [draw image.](https://github.com/Hieucaohd/agricultural-prediction/blob/main/src/draw_img.ipynb)
 
 This is an output of Kali value in a rice field that our AI model predicts from spectral image: [Kali](https://drive.google.com/file/d/1JZhQGkN3quckHi6w2KTPkBo981xNZdnu/view?usp=sharing)
 
