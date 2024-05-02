@@ -97,7 +97,7 @@ We use PyTorch and Scikit-learn library to train the model inference:
 
 2) Scikit-learn: <https://scikit-learn.org/stable/>
 
-Here is module that we build to train our AI: [train AI model.](https://github.com/Hieucaohd/agriculture-prediction/blob/main/AI/common/read_spectral_common.py)
+Here is module that we build to train our AI: [train AI model.](https://github.com/Hieucaohd/agricultural-prediction/blob/main/AI/common/read_spectral_common.py)
 
 
 
