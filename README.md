@@ -7,23 +7,33 @@ What is data structured of spectral image? <https://www.spectralpython.net/>
 
 ## Install package dependencies
 
-To install the package dependencies and create folder that source code used, in folder agriculture-prediction, run command to create python virtual environment:
+Step 1: To install the package dependencies and create folder that source code used, in folder agriculture-prediction, run command to create python virtual environment:
+
+In windows run:
 
 ```bash
-> python3 -m venv venv
+python -m venv venv
 ```
 
-Then in Linux run:
+In linux run:
 
 ```bash
-> sudo chmod +x ./src/bin/*.sh
-> ./src/bin/install.sh
+python3 -m venv venv
 ```
 
-Or in windown run:
+Step 2: Create folder needed for store data:
+
+In windown run:
 
 ```bash
-> .\src\bin\window_install.ps1
+.\src\bin\window_install.ps1
+```
+
+In Linux run:
+
+```bash
+sudo chmod +x ./src/bin/*.sh
+./src/bin/install.sh
 ```
 
 After install, your folder structure will be like that:
