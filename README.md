@@ -74,6 +74,9 @@ Then download spectral images in these links and save to folder ./data/spectral_
 2) Header image file: [header file.](https://drive.google.com/file/d/1-FeYM1thYKsi6yO2wcq_kHSVfwjpz9ki/view?usp=sharing)
 3) Bands image file: [bands file.](https://drive.google.com/file/d/1dklZdpA4T_NShh1JvcG4PF4MLpzOMb-k/view?usp=sharing)
 
+And download the matrix image data in this link and save to the folder ./src/data/ , after download you need unzip it in folder ./src/data/, it will load matrix image data to the folder ./src/data/img_col_data/
+1) Matrix image data: https://drive.google.com/file/d/1-T5kGQgqeAj4x2YMW8-6dAgZ7D9TzHGK/view?usp=sharing
+
 ## How to read spectral image
 1) Open terminal in Linux or power-shell in Window.
 2) Make sure that you are in environment of project.
