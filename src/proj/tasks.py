@@ -53,7 +53,7 @@ def create_sqlite3_conn_pool(num_partition):
     
 NUM_PARTITION = 5
 SQLITE3_CONN_POOL = create_sqlite3_conn_pool(NUM_PARTITION)
-clf_RF_1 = load_sklearn_model_to_file(get_full_path("../../model_saved/RF_save/clf_RF_1.pkl"))
+
 IMG = read_image_spectral()
 REDIS_CONN = redis.Redis("localhost", 6379, db=6)
 
@@ -102,6 +102,7 @@ def calculate_N_using_col_data(
     end_get_img_data = time.time()
     logging.info(f"Finished get img data in:  {end_get_img_data - start_time:.2f} seconds. Col = {col}, file = {file_path}.")
     
+    clf_RF_1 = load_sklearn_model_to_file(get_full_path("../../model_saved/RF_save/clf_RF_1.pkl"))
     nitos = clf_RF_1.predict(matrix).tolist()
     
     result = pd.DataFrame({
@@ -161,6 +162,7 @@ def calculate_N(
     end_get_img_data = time.time()
     logging.info(f"Finished get img data of col {col}, folder = {ix_folder} in:     {end_get_img_data - start_time:.2f} seconds.")
     
+    clf_RF_1 = load_sklearn_model_to_file(get_full_path("../../model_saved/RF_save/clf_RF_1.pkl"))
     nitos = clf_RF_1.predict(matrix).tolist()
     
     result = pd.DataFrame({
